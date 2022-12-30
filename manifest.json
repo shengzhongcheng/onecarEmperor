@@ -76,7 +76,7 @@
                 "dSYMs" : false,
                 "capabilities" : {
                     "entitlements" : {
-                        "com.apple.developer.associated-domains" : [ "applinks:static-43dfd94f-33f3-431d-8e7b-e4262db8df68.bspapp.com" ]
+                        "com.apple.developer.associated-domains" : [ "applinks:" ]
                     }
                 }
             },
@@ -85,23 +85,23 @@
                 "ad" : {},
                 "maps" : {
                     "amap" : {
-                        "appkey_ios" : "d68b888a2fb57525d19521c05fbc99b1",
-                        "appkey_android" : "d68b888a2fb57525d19521c05fbc99b1"
+                        "appkey_ios" : "",
+                        "appkey_android" : ""
                     }
                 },
                 "geolocation" : {},
                 "oauth" : {
                     "weixin" : {
-                        "appid" : "wx192a54c6f723894f",
-                        "appsecret" : "c1be10da7cc1304cfbff182b1bf11f52",
-                        "UniversalLinks" : "https://static-43dfd94f-33f3-431d-8e7b-e4262db8df68.bspapp.com/uni-universallinks/__UNI__A180025/"
+                        "appid" : "",
+                        "appsecret" : "",
+                        "UniversalLinks" : "
                     }
                 },
                 "payment" : {
                     "weixin" : {
                         "__platform__" : [ "android" ],
-                        "appid" : "wx192a54c6f723894f",
-                        "UniversalLinks" : "https://static-43dfd94f-33f3-431d-8e7b-e4262db8df68.bspapp.com/uni-universallinks/__UNI__A180025/"
+                        "appid" : "",
+                        "UniversalLinks" : ""
                     }
                 }
             },
@@ -181,5 +181,5 @@
         "enable" : false
     },
     "vueVersion" : "2",
-    "_spaceID" : "43dfd94f-33f3-431d-8e7b-e4262db8df68"
+    "_spaceID" : ""
 }
