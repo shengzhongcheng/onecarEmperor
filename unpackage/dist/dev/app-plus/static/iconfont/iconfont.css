@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 3231748 */
+  src: url('');
+  src: url('?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_3231748_tf969w8pmjg.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_3231748_tf969w8pmjg.woff') format('woff'),
+  url('//at.alicdn.com/t/font_3231748_tf969w8pmjg.ttf') format('truetype'),
+  url('#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fangxiang-you:before {
+  content: "\e660";
+}
+

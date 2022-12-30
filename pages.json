@@ -1,0 +1,692 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/loning/loning",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "加载",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+			
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				//隐藏导航栏
+				// "navigationStyle": "custom"
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",  //登入界面
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/loginUser",
+			"style": {
+				"navigationBarTitleText": "",  //账户密码登陆 
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/login/loginForget",
+			"style": {
+				"navigationBarTitleText": "",  //忘记密码
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/carMe/carmechild/masterAuth-car",
+			"style": {
+				"navigationBarTitleText": "师傅认证",
+				 "navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/carMe/carmechild/merchant-car",
+			"style": {
+				"navigationBarTitleText": "商家认证",
+				 "navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		
+	    {
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false,
+				//隐藏导航栏
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/gradords/gradords",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "抢单大厅",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/ordsxx/ordsxx",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myinfor/myinfor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shopinfor/shopinfor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "门店信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ordsinfor/ordsinfor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ordsstatus/ordsstatus",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "待派单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ordsgo/ordsgo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "已派单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ordsing/ordsing",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "已完成",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ordsover/ordsover",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "完成订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/personalqualif/personalqualif",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人资质",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/scoperan/scoperan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "服务范围",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/editscope/editscope",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改服务范围",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/bond/bond",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "缴纳保证金",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/edpaw/edpaw",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shopadmin/shopadmin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "服务管理",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/shopedit/shopedit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品编辑",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/wallet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "钱包",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/withdrawal/withdrawal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提现记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gowithdrawal/gowithdrawal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提现",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/staff/staff",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "员工",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/staffadmin/staffadmin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "员工管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/addstaff/addstaff",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加员工",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		
+		
+        ,{
+            "path" : "pages/apply/apply",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "申请入驻",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/editmyinfor/editmyinfor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/bondadmin/bondadmin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "保证金管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/bondadmin/bondords/bondords",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "缴纳保证金",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/bondadmin/bondfronzen/bondfronzen",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "冻结中金额",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/personalqualif/shopperson/shopperson",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "门店资质",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/editmyinfor/editshopinfor/editshopinfor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改店铺信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/ordsshohou/ordsshohou",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "售后订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/bargaingord/bargaingord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "议价订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pinlun/pinlun",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评论",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/guanzhu/guanzhu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关注",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/beitaidou/beitaidou",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的备胎豆",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/dengjishenqing/dengjishenqing",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "等级申请",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/zhisiketang/zhisiketang",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "知识课堂",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/faquan/faquan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发圈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/fujinderen/fujinderen",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "附近的人",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/guanggao/guanggao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "广告管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shousuo/shousuo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shouziminxi/shouziminxi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收支明细",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shop/shop",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/knowclassroom/knowclassroom",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布知识",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/zhishiinfor/zhishiinfor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "知识详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/zhishishouyi/zhishishouyi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "知识殿堂打赏收益",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/knowquan/knowquan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布帖子",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/fanquaninfor/fanquaninfor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发圈详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/edfaquan/edfaquan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改内容",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/zhishilist/zhishilist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "知识分享",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/knowclassroom/vid/vid",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布知识",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/knowclassroom/image/image",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布知识",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/fuwuquyu/fuwuquyu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "服务区域",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/leimuguanli/leimuguanli",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "类目管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/fabufuwu/fabufuwu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布服务",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/fabuguanggao/fabuguanggao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布广告",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shoporde/shoporde",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商城订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shopordinfor/shopordinfor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/chatroom/chatroom",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/chat/chat",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/main/main",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "联系人",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/add_new/add_new",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "添加好友",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/groups/groups",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "群聊",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/add_groups/add_groups",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新建群聊",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+			"path": "pages/fujinRoom/fujinRoom",
+			"style": {
+				"navigationBarTitleText": "附近",
+				"enablePullDownRefresh": true
+			}
+		},
+        {
+			"path": "pages/faceshibie/faceshibie",
+			"style": {
+				"navigationBarTitleText": "人脸识别",
+				"enablePullDownRefresh": false
+			}
+		}
+       
+        ,{
+            "path" : "pages/jubao/jubao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "举报",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	
+	"tabBar": {
+		"color": "#222222",
+		"selectedColor": "#11c60b",
+		"list": [
+			{	
+				"iconPath": "static/tabbarimg/index.png",
+				"selectedIconPath": "static/tabbarimg/indexblue.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{	
+				"iconPath": "static/tabbarimg/my.png",
+				"selectedIconPath": "static/tabbarimg/myblue.png",
+				"pagePath": "pages/my/my",
+				"text": "我的"
+			}
+		]
+	},
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
